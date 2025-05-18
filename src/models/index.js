@@ -1,0 +1,12 @@
+module.exports.Token = require('./token.model');
+module.exports.User = require('./user.model');
+module.exports.Role = require('./role.model');
+module.exports.Privilege = require('./privilege.model');
+module.exports.Module = require('./module.model');
+module.exports.Screen = require('./screen.model');
+module.exports.Action = require('./action.module');
+module.exports.Farm = require('./farm.model');
+module.exports.Training = require('./training.model');
+module.exports.Privilege = require('./privilege.model');
+module.exports.ActivityLog = require('./activityLog.model');
+module.exports.Camera = require('./camera.model');

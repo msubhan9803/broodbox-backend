@@ -1,0 +1,207 @@
+[
+    {
+        "name": "dashboard",
+        "label": "Dashboard",
+        "defaultUrl": "/dashboard",
+        "screenList": [
+            {
+                "name": "dashboard",
+                "label": "Dashboard",
+                "actionList": [],
+                "url": "/dashboard"
+            }
+        ],
+        "icon": "grid",
+        "order": 1
+    },
+    {
+        "name": "farm_management",
+        "label": "Farm Management",
+        "defaultUrl": "/farm_management",
+        "screenList": [
+            {
+                "name": "farm_management",
+                "label": "Farm Management",
+                "actionList": [
+                    {
+                        "actionId": "add_farm",
+                        "actionName": "Add Farm"
+                    },
+                    {
+                        "actionId": "get_farm_detail",
+                        "actionName": "Get Farm Detail"
+                    },
+                    {
+                        "actionId": "manage_users",
+                        "actionName": "Manage Users"
+                    },
+                    {
+                        "actionId": "manage_beehive_locations",
+                        "actionName": "Manage Beehive Locations"
+                    }
+                ],
+                "url": "/farm_management"
+            },
+            {
+                "name": "add_farm",
+                "label": "Add Farm",
+                "actionList": [],
+                "url": "/farm_management/add_farm"
+            },
+            {
+                "name": "edit_farm",
+                "label": "Edit Farm",
+                "actionList": [],
+                "url": "/farm_management/edit_farm"
+            },
+            {
+                "name": "farm_detail",
+                "label": "Farm Details Page",
+                "actionList": [
+                    {
+                        "actionId": "manage_users",
+                        "actionName": "Manage Users"
+                    },
+                    {
+                        "actionId": "manage_beehive_locations",
+                        "actionName": "Manage Beehive Locations"
+                    },
+                    {
+                        "actionId": "get_farm_detail",
+                        "actionName": "Get Farm Detail"
+                    },
+                    {
+                        "actionId": "edit_farm",
+                        "actionName": "Edit Farm"
+                    }
+                ],
+                "url": "/farm_management/farm_detail"
+            },
+            {
+                "name": "edit_beehive_location",
+                "label": "Edit Beehive Location",
+                "actionList": [],
+                "url": "/farm_management/edit_beehive_location"
+            }
+        ],
+        "icon": "map",
+        "order": 2
+    },
+    {
+        "name": "user_management",
+        "label": "User Management",
+        "defaultUrl": "/user_management",
+        "screenList": [
+            {
+                "name": "user_management",
+                "label": "User Management",
+                "actionList": [
+                    {
+                        "actionId": "manage_users",
+                        "actionName": "Manage Users"
+                    },
+                    {
+                        "actionId": "manage_roles",
+                        "actionName": "Manage Roles"
+                    }
+                ],
+                "url": "/user_management"
+            },
+            {
+                "name": "add_user",
+                "label": "Add User",
+                "actionList": [],
+                "url": "/user_management/add_user"
+            },
+            {
+                "name": "edit_user",
+                "label": "Edit User",
+                "actionList": [],
+                "url": "/user_management/edit_user"
+            },
+            {
+                "name": "edit_role",
+                "label": "Edit Role",
+                "actionList": [],
+                "url": "/user_management/edit_role"
+            }
+        ],
+        "icon": "user",
+        "order": 3
+    },
+    {
+        "name": "pollination_map",
+        "label": "Pollination Map",
+        "defaultUrl": "/pollination_map",
+        "screenList": [
+            {
+                "name": "pollination_map",
+                "label": "Pollination Map",
+                "actionList": [],
+                "url": "/pollination_map"
+            }
+        ],
+        "icon": "line_chart",
+        "order": 4
+    },
+    {
+        "name": "account_settings",
+        "label": "Account Settings",
+        "defaultUrl": "/account_settings",
+        "screenList": [
+            {
+                "name": "account_settings",
+                "label": "Account Settings",
+                "actionList": [],
+                "url": "/account_settings"
+            }
+        ],
+        "icon": "gear",
+        "order": 5
+    },
+    {
+        "name": "activity_logs",
+        "label": "Activity Logs",
+        "defaultUrl": "/activity_logs",
+        "screenList": [
+            {
+                "name": "activity_logs",
+                "label": "Activity Logs",
+                "actionList": [],
+                "url": "/activity_logs"
+            }
+        ],
+        "icon": "timer",
+        "order": 6
+    },
+    {
+        "name": "training",
+        "label": "Training",
+        "defaultUrl": "/training",
+        "screenList": [
+            {
+                "name": "training",
+                "label": "Training",
+                "actionList": [],
+                "url": "/training"
+            }
+        ],
+        "icon": "desktop",
+        "order": 7
+    },
+    {
+        "name": "camera_management",
+        "label": "Camera Management",
+        "defaultUrl": "/camera_management",
+        "screenList": [
+            {
+                "name": "camera_management",
+                "label": "Camera Management",
+                "actionList": [],
+                "url": "/camera_management"
+            }
+        ],
+        "icon": "camera",
+        "order": 8
+    }
+  ]

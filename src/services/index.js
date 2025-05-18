@@ -1,0 +1,11 @@
+module.exports.authService = require('./auth.service');
+module.exports.emailService = require('./email.service');
+module.exports.tokenService = require('./token.service');
+module.exports.userService = require('./user.service');
+module.exports.farmService = require('./farm.service');
+module.exports.trainingService = require('./training.service');
+module.exports.userManagementService = require('./userManagement.service');
+module.exports.activityLogService = require('./activityLog.service');
+module.exports.cameraService = require('./camera.service');
+module.exports.s3Service = require('./s3.service');
+module.exports.fileService = require('./file.service');
